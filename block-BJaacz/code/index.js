@@ -4,21 +4,27 @@
   Create a function named addTwo which accepts a number, adds 2 to the number and return the new value.
 */
 
+function addTwo (num) {
+  return
+}
 /*
   Create a function named addThree which accepts a number, adds 3 to the number and return the new value.
 */
-
-/*
+function addThree (num) {
+  return
+  /*
   Create a function named addFive which accepts a number, adds 5 to the number and return the new value.
 */
-
+function addFive (num) {
+  return
+}
 /*
   Create a function named addTwoToArray which accepts:
     - An array of numbers
     - Returns a new array where 2 is added to each element
     - While doing so use the funciton addTwo
 */
-
+}
 /*
   Create a function named addThreeToArray which accepts:
     - an array of numbers
@@ -65,7 +71,9 @@ In above function addTwoToArray, addThreeToArray, addFiveToArray we are repeatin
  Create a function named `first` that accepts an argument a function (callback) and return the same function defination.
 
 */
+function first (cb){
 
+}
 /*
  Create a function named `second`
   - Inside second create another function named `third` which accepts a number, adds 1 to it and returns it
