@@ -20,7 +20,7 @@ Example:
 1. `concat`
 
    - Parameter: n (any) number of values (number, string, boolean, array, null, undefined, object and function etc)
-   - Return: a single Array consisting of by all the values passed as parameters in the same order.
+   - Return:  a single Array consisting of by all the values passed as seperator in the same order.
    - Example:
      ```js
      let numbers = [1, 2, 3];
@@ -30,11 +30,28 @@ Example:
      let colors = ['red', 'green', 'blue'];
      colors.concat('black', 'red', 21, true); // ['red','green','blue','black', 'red', 21, true]
      ```
-   - `concat` accepts n number of values and returns one array with all the values in same order. It does not change the original array.
+   - This method to seperate elements as specified
    - No it does not mutate the original array
 
 2. `join`
+   - Parameter: concatenates all elements in an array
+   - Return: a single Array consisting of by all the values passed as parameters in the same order.
+   - Example:
+     ```js
+     const signs = ['Pisces', 'Gemini', 'Aries'];
+     console.log(signs.join());
+     //"Pisces,Gemini,Aries"
+     const signs = ['Pisces', 'Gemini', 'Aries'];
+     console.log(signs.join(''));
+     //"PiscesGeminiAries"
+     const signs = ['Pisces', 'Gemini', 'Aries'];
+     console.log(signs.join('-'));
+     //"Pisces-Gemini-Aries"
+     ```
+   - `concat` accepts n number of values and returns one array with all the values in same order. It does not change the original array.
+   - No it does not mutate the original array
 3. `flat`
+
 4. `push`
 5. `indexOf`
 6. `lastIndexOf`
