@@ -5,9 +5,9 @@ let fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
 // Remove the last element from fruits array
 
 // Log the current length of fruits array
-
+console.log(fruits.length)
 // Remove the first element from fruits and log the value of fruits (use delete arr[0])
-
+console.log(fruits.delete)
 // Log the element on index 0 and 1
 
 // If the element at 0 index is undefined and index 1 is 'Banana' shift all the values to one lower index (use shift method)
