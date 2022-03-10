@@ -90,13 +90,64 @@ Example:
   ```
 
 9. `includes`
+  Parameter: Finds matching strings in another string\
+  Return: True or false based on results
+  ```js
+  let sentence = 'My name is Baljit'
+  let word = 'Baljit'
+  console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+  ```
 10. `indexOf`
+  Parameter: Uses two arguments, one to searched string then returns first index of specified string; second returns first index of greater or equal to specified number
+  Return: The found specified string value
+  ```js
+  let sentence = 'My name is Baljit'
+  let word = 'Baljit'
+  console.log(`The word "${word}" ${sentence.indexOf(word) ? 'is' : 'is not'} in the sentence`);
+  ```
 11. `lastIndexOf`
+  Parameter: Uses two arguments, one to search string then returns last index of specified string; second returns last index of greater or equal to specified number
+  Return: The found specified string value
+  ```js
+  let sentence = 'My name is Baljit'
+  let word = 'Baljit'
+  console.log(`The word "${word}" ${sentence.indexOf(word) ? 'is' : 'is not'} in the sentence`);
+  ```
 12. `padEnd`
+  Parameter: pads the string with given string to reach a specific string length
+  Return: The specified length and string value at end
+  ```js
+  let sentence = 'My name is Baljit'
+  console.log(sentence.padEnd(25, '.'));
+  ```
 13. `padStart`
+  Parameter: pads the string with given string to reach a specific string length
+  Return: The specified length and string value at start
+  ```js
+  let sentence = 'My name is Baljit'
+  console.log(sentence.padStart(25, '.'));
+  ```
 14. `repeat`
+  Parameter: makes a specific number of copies as specified by string
+  Return: Copies or repeats certain amount
+  ```js
+  let sentence = 'My name is Baljit'
+  console.log(`My name is "Baljit" : ${sentence.repeat(3)}`);
+  ```
 15. `replace`
+  Parameter: replaces with the given strong value
+  Return: returns the new string value
+  ```js
+  let sentence = 'My name is Baljit'
+  console.log(sentence.replace('Baljit', 'Ben'));
+  ```
 16. `slice`
+  Parameter: removes a section of the strong
+  Return: extracts and returns new string without chanigng original
+  ```js
+  let sentence = 'My name is Baljit'
+  console.log(sentence.slice(25));
+  ```
 17. `split`
 
     Parameter:
@@ -115,3 +166,9 @@ Example:
     Split accepts two optional parameter seperator and limits and returns array of strings
 
 18. `substring`
+  Parameter: (string data type)
+  Return: part of string between beginning and end 
+  ```js
+  let sentence = 'My name is Baljit'
+  console.log(sentence.substring(25, '.'));
+  ```
