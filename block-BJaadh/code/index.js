@@ -7,31 +7,30 @@ NOTE:
 While using methods like push, pop, sort etc it mutates the original array.
 
 Clone the array before using sort method: [...arr]
-
 */
 
 // - Find the index of `101` in numbers
-
+numbers.indexOf("101");
 // - Find the last index of `9` in numbers
-
+numbers.lastIndexOf("101");
 // - Convert value of strings array into a sentance like "This is a collection of words"
-
+"This is a collection of words"
 // - Add two new words in the strings array "called" and "sentance"
 
 // - Again convert the updated array (strings) into sentance like "This is a collection of words called sentance"
 
 // - Remove the first word in the array (strings)
-
+strings.delete(1)
 // - Find all the words that contain 'is' use string method 'includes'
-
+strings.includes("is")
 // - Find all the words that contain 'is' use string method 'indexOf'
-
+strings.indexOf("is")
 // - Check if all the numbers in numbers array are divisible by three use array method (every)
 
 // -  Sort Array from smallest to largest
 
 // - Remove the last word in strings
-
+strings.lastIndexOf(" ")
 // - Find largest number in numbers
 
 // - Find longest string in strings
@@ -41,7 +40,7 @@ Clone the array before using sort method: [...arr]
 // - Find all the odd numbers
 
 // - Place a new word at the start of the array use (unshift)
-
+console.log(strings.unshift("Hi"))
 // - Make a subset of numbers array [18,9,7,11]
 
 // - Make a subset of strings array ['a','collection']
@@ -49,7 +48,7 @@ Clone the array before using sort method: [...arr]
 // - Replace 12 & 18 with 1221 and 1881
 
 // - Replace words in strings array with the length of the word
-
+strings.length
 // - Find the sum of the length of words using above question
 
 // - Customers Array
@@ -60,7 +59,7 @@ var customers = [
   { firstname: 'Jack', lastname: 'White' },
 ];
 // - Find all customers whose firstname starts with 'J'
-
+customers.startsWith("J")
 // - Create new array with only first name
 
 // - Create new array with all the full names (ex: "Joe Blogs")
