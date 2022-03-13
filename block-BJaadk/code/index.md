@@ -13,6 +13,7 @@ let doubleNum = numbers.forEach(double);
 ```
 ![](./img/main.png)
 
+alert each number
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -21,6 +22,7 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
+each number will be multiplied by 2
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -29,7 +31,7 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
-
+number will log each one
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function double(num) {
@@ -37,7 +39,7 @@ function double(num) {
 }
 let doubleNumbers = numbers.map(double);
 ```
-
+map will convert array and then whatever is returned will be stored in new array
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function addTwo(num) {
@@ -45,6 +47,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
+map will convert array and then whatever is returned will be stored in new array
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -53,7 +56,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
-
+undefined and new array created
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function addTwo(num) {
@@ -69,7 +72,7 @@ function isOdd(num) {
 }
 let oddNumbers = numbers.filter(isOdd);
 ```
-
+output will be true or false based on number, filter checks cb truthy ot falsy
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function test(num) {
@@ -77,6 +80,7 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
+output will be true or false by converting to boolean
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -85,6 +89,7 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
+output will be true or false by converting to boolean
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -93,7 +98,7 @@ function add(accumulator, currentValue) {
 }
 let sum = numbers.reduce(add);
 ```
-
+the accumulator is second parameter 0 and urrent value 100; add them together the next value will continue adding on
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function add(accumulator, currentValue) {
@@ -101,3 +106,4 @@ function add(accumulator, currentValue) {
 }
 let sum = numbers.reduce(add);
 ```
+the accumulator is second parameter 0 and urrent value 100; add them together the next value will continue adding on
