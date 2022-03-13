@@ -26,10 +26,11 @@ console.log(peopleName)
 // Log the length of filtered named of people in peopleName that starts with 'A' and 'C'
 console.log(peopleName)
 // Log all the filtered male ('M') in persons array
-
+console.log(persons.male ('M'))
 // Log all the filtered female ('F') in persons array
-
+console.log(persons.female ('F'))
 // Log all the filtered female ('F') whose name starts with 'C' or 'J' in persons array
+console.log(persons.female ('F'))
 
 // Log all the even numbers from peopleGrade array
 
