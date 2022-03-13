@@ -3,7 +3,7 @@ For the given code below you have to draw the diagram of how these things are wo
 - Keep the images in the `img` folder
 - using the `![](./img/imagename.png)` add images below each code snippet
 
-fffff
+
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function double(num) {
