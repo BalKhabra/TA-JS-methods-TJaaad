@@ -16,16 +16,25 @@ let persons = [
 // NOTE: Use reduce method whereever you can to solve this exercise:
 
 // Find the average grade
-
+gradeTotal / personGrade.length;
 // Find the average grade of male
-
+let maleGrade = persons.filter((p) => p.sex == "M");
+maleGrade.reduce((acc, cv) => {
+  return acc + cv;
+}, 0) / maleGrade.length;
 // Find the average grade of female
-
+let femaleGrade = persons.filter((p) => p.sex == "F");
+femaleGrade.reduce((acc, cv) => {
+  return acc + cv;
+}, 0) / femaleGrade.length;
 // Find the highest grade
+[...peopleGrade].sort((a, b) => a - b).pop();
 
 // Find the highest grade in male
+[...maleGrade].sort((a, b) => a - b).pop();
 
 // Find the highest grade in female
+[...femaleGrade].sort((a, b) => a - b).pop();
 
 // Find the highest grade for people whose name starts with 'J' or 'P'
 
