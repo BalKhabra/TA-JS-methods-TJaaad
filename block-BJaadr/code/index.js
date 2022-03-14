@@ -1,7 +1,12 @@
 // NOTE: You can only use the (reduce) array method to solve this exercise:
 
 function countAllPeople() {
-  // your code goes here
+  let totalPeople = 0;
+
+  got.houses.reduce(house => {
+    totalPeople = totalPeople + house.people.length;
+  });
+  return totalPeople;
 }
 
 function peopleByHouses() {
